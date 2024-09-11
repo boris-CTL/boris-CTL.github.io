@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Jon Barron</title>
+    <title>Chen-Tao Lee</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="Chen-Tao Lee">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -20,24 +20,25 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Jon Barron
+                  Chen-Tao Lee
                 </p>
-                <p>I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
+                <p>I'm a research assistant working in the <a href="https://nturll.netlify.app/about">NTU Robot Learning Lab</a> at National Taiwan University, and I'm currently collaborating with Prof. <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>.
                 </p>
                 <p>
-                  At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, and <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>. I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                  My research interests mainly span the theories and applications of deep reinforcement learning, with a particular emphasis on integrating program synthesis and deep reinforcement learning algorithms to develop improved policies. I'm also broadly interested in enhancing machine learning algorithms incorporating LLMs/VLMs.
+                </p>
+                <p>
+                  Prior to working as a RA in the <a href="https://nturll.netlify.app/about">NTU Robot Learning Lab</a>, I recieved my B.S. in both Electrical Engineering and Finance from National Taiwan University in 2023.
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jonbarron/">Github</a>
+                  <a href="mailto:borisctlee@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href=>CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-TW&authuser=1&user=HrzjZ3EAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/boris-CTL">Github</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/JonBarron.jpg" class="hoverZoomLink"></a>
+                <a href="images/ChenTaolee.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/ChenTaoLee.png" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -46,7 +47,6 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
                 </p>
               </td>
             </tr>
@@ -54,13 +54,13 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:10px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
-          <source src="images/nerfcasting.mp4" type="video/mp4">
+          <source src="images/pomp.png">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/nerfcasting.jpg' width=100%>
+          <img src='images/pomp.png' width=120%>
         </div>
         <script type="text/javascript">
           function nerfcasting_start() {
@@ -74,32 +74,30 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://nerf-casting.github.io/">
-          <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections</span>
+        <a href="https://arxiv.org/abs/2311.15960">
+          <span class="papertitle">Addressing Long-Horizon Tasks by Integrating Program Synthesis and State Machines</span>
         </a>
         <br>
 				
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-				<a href="https://phogzone.com/">Peter Hedman</a>,
-				<a href="https://benattal.github.io/">Benjamin Attal</a>, <br>
-				<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-				<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
-				<strong>Jonathan T. Barron</strong>
+        <a href=>Yu-An Lin</a>*,
+        <strong>Chen-Tao Lee</strong>*,
+				<a href="https://dannyliu15.github.io/">Guan-Ting Liu</a>*,
+				<a href="https://www.csie.ntu.edu.tw/~pjcheng/">Pu-Jen Cheng</a>,
+				<a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>
         <br>
-        <em>SIGGRAPH Asia</em>, 2024
+        <em>Generalization in Planning Workshop at Neural Information Processing Systems (NeurIPS)</em>, 2023&nbsp <font color="brown"><strong>(Contributed talk)</strong></font>
         <br>
-        <a href="https://nerf-casting.github.io/">project page</a>
+        <a href=>project page (comming soon)</a>
         /
-        <a href="https://arxiv.org/abs/2405.14871">arXiv</a>
+        <a href="https://arxiv.org/abs/2311.15960">arXiv</a>
         <p></p>
         <p>
-        Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world scenes.
+          This work proposes Program Machine Policies (POMPs), which bridge the advantages of programmatic RL and state machine policies, allowing for the representation of complex behaviors and the address of long-term tasks. Specifically, we introduce a method that can retrieve a set of effective, diverse, compatible programs. Then, we use these programs as modes of a state machine and learn a transition function to transition among mode programs, allowing for capturing long-horizon repetitive behaviors.
         </p>
       </td>
     </tr>
 
-
+<!-- 
     <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -4071,7 +4069,7 @@ for Topologically Varying Neural Radiance Fields</span>
                 <br>
                 <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
               </td>
-            </tr>
+            </tr> -->
             
             
           </tbody></table>
@@ -4080,7 +4078,7 @@ for Topologically Varying Neural Radiance Fields</span>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  Website source code from <a href="https://github.com/jonbarron/jonbarron_website">here</a>. 
                 </p>
               </td>
             </tr>
