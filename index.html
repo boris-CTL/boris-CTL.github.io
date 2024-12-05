@@ -23,14 +23,26 @@
                   Chen-Tao Lee
                 </p>
                 <p>
+                  I am a research assistant at Academia Sinica, working in the Computer System Lab under the guidance of Prof. <a href="https://homepage.iis.sinica.edu.tw/pages/wuj/index_en.html">Jan-Jan Wu</a> and <a href="https://homepage.iis.sinica.edu.tw/pages/dyhong/index_en.html">Ding-Yong Hong</a>. Previously, I conducted research with Prof. <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a> at the NTU Robot Learning Lab, focusing on integrating program synthesis with reinforcement learning (RL).
+                </p>
+
+                <!-- <p>
                   I'm an undergraduate student working in the NTU Robot Learning Lab at National Taiwan University, and I'm currently collaborating with Prof. <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>.
-                </p>
+                </p> -->
+
                 <p>
+                  My research focuses on developing explainable and efficient AI systems, particularly their ability to generalize to unseen scenarios and improve inference and training speed.
+                </p>
+                <!-- <p>
                   My research interests mainly span the theories and applications of reinforcement learning, with a particular emphasis on integrating program synthesis and deep reinforcement learning algorithms to develop improved policies. I'm also broadly interested in enhancing machine learning algorithms incorporating LLMs/VLMs.
-                </p>
+                </p> -->
+
                 <p>
-                  I recieved my B.S. in both Electrical Engineering and Finance from National Taiwan University in 2023.
+                  I received my B.S. in Electrical Engineering and B.A. in Finance from National Taiwan University in 2023.
                 </p>
+                <!-- <p>
+                  I recieved my B.S. in both Electrical Engineering and Finance from National Taiwan University in 2023.
+                </p> -->
                 <p style="text-align:center">
                   <a href="mailto:borisctlee@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href=>CV</a> &nbsp;/&nbsp;
@@ -75,25 +87,29 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2311.15960">
-          <span class="papertitle">Addressing Long-Horizon Tasks by Integrating Program Synthesis and State Machines</span>
+        <a href="https://openreview.net/forum?id=FeCWZviCeP&referrer=%5Bthe%20profile%20of%20Shao-Hua%20Sun%5D(%2Fprofile%3Fid%3D~Shao-Hua_Sun1)">
+          <span class="papertitle">Hierarchical Programmatic Option Framework</span>
         </a>
         <br>
 				
         <a href=>Yu-An Lin</a>*,
         <strong>Chen-Tao Lee</strong>*,
+        <a href=>Chih-Han Yang</a>*,
 				<a href="https://dannyliu15.github.io/">Guan-Ting Liu</a>*,
-				<a href="https://www.csie.ntu.edu.tw/~pjcheng/">Pu-Jen Cheng</a>,
 				<a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>
+        <!-- <br> -->
         <br>
-        <em>Generalization in Planning Workshop at Neural Information Processing Systems (NeurIPS)</em>, 2023&nbsp <font color="brown"><strong>(Contributed talk)</strong></font>
+        <font color="black"><strong>(Equal contribution)</strong></font>
         <br>
-        <a href=>project page (comming soon)</a>
-        /
-        <a href="https://arxiv.org/abs/2311.15960">arXiv</a>
+        <!-- <em>Neural Information Processing Systems (NeurIPS)</em>, 2024&nbsp <font color="brown"><strong>(Contributed talk)</strong></font> -->
+        <em>Neural Information Processing Systems (NeurIPS)</em>, 2024
+        <br>
+        <!-- <a href=>project page (comming soon)</a> -->
+        <!-- / -->
+        <!-- <a href="https://openreview.net/forum?id=FeCWZviCeP&referrer=%5Bthe%20profile%20of%20Shao-Hua%20Sun%5D(%2Fprofile%3Fid%3D~Shao-Hua_Sun1)">arXiv</a> -->
         <p></p>
         <p>
-          This work proposes Program Machine Policies (POMPs), which bridge the advantages of programmatic RL and state machine policies, allowing for the representation of complex behaviors and the address of long-term tasks. Specifically, we introduce a method that can retrieve a set of effective, diverse, compatible programs. Then, we use these programs as modes of a state machine and learn a transition function to transition among mode programs, allowing for capturing long-horizon repetitive behaviors.
+          Deep reinforcement learning aims to learn deep neural network policies to solve large-scale decision-making problems. However, approximating policies using deep neural networks makes it difficult to interpret the learned decision-making process. To address this issue, prior works (Trivedi et al., 2021; Liu et al., 2023; Carvalho et al., 2024) proposed to use human-readable programs as policies to increase the interpretability of the decision-making pipeline. Nevertheless, programmatic policies generated by these methods struggle to effectively solve long and repetitive RL tasks and cannot generalize to even longer horizons during testing. To solve these problems, we propose the Hierarchical Programmatic Option framework (HIPO), which aims to solve long and repetitive RL problems with human-readable programs as options (low-level policies). Specifically, we propose a method that retrieves a set of effective, diverse, and compatible programs as options. Then, we learn a high-level policy to effectively reuse these programmatic options to solve reoccurring subtasks. Our proposed framework outperforms programmatic RL and deep RL baselines on various tasks. Ablation studies justify the effectiveness of our proposed search algorithm for retrieving a set of programmatic options.
         </p>
       </td>
     </tr>
